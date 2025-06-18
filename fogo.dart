@@ -1,5 +1,9 @@
+import 'package:flutter/material.dart';
+
 void main(){
-  
-  print('hello magdy welcome');
-  
+
+  runApp(
+    MatrialApp(home: Text ('Hello magdy'),
+    ),
+  );
 }
